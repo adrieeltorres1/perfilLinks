@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #141414;
+}
+
+#caixaPrincipal {
+    width: 400px;
+    height: 500px;
+    border-radius: 16px;
+    border: 1px solid hsl(0, 0%, 12%);
+    margin-top: 100px;
+    background-color: hsl(0, 0%, 12%);
+
+    #elementosPerfil {
+        display: flex;
+        justify-content: center;
+        #elementos {
+            #centralizarImg {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 15px;
+                    width: 100px;
+                    border-radius: 100%;
+                }
+            }
+            h2 {
+                display: flex;
+                justify-content: center;
+                margin-top: 8px;
+
+            }
+            #localizacao {
+                color: #c5f82a;
+                font-size: 18px;
+                margin-top: 8px;
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+                font-size: 16px;
+                margin-top: 5px;
+            }
+        }
+    }
+
+    .linksDoPerfil {
+        .links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            height: 250px;
+            button {
+                font-size: 16px;
+                width: 350px;
+                height: 40px;
+                background-color: hsl(0, 0%, 20%);
+                border-radius: 8px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+               
+            }
+        }
+        button:active{
+            background-color: #c5f82a;
+        }
+        button:hover{
+            background-color: #c5f82a;
+        }
+
+    }
+}
+
+
+
+
