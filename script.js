@@ -16,6 +16,6 @@ btnDois.addEventListener('click', () => {
 const btnTres = document.getElementById('btnTres')
 
 btnTres.addEventListener('click', () => {
-    window.location.href = "https://www.linkedin.com/in/adriel-torres-9a421a27b/"
+    window.location.href = "https://www.instagram.com/adrieltorres_?igsh=MXZ2bm9nNjB0ZDRneg%3D%3D"
 
 })
